@@ -2,6 +2,28 @@
 
 This repository contains the notebooks and course resources for PHYS 201L at Christopher Newport University.
 
+## Course documents
+
+- [Syllabus (PDF)](course_documents/PHYS201L_Syllabus_Fall_2026.pdf)
+- [Laboratory notebook rubric (PDF)](course_documents/PHYS201L_Laboratory_Notebook_Rubric_Fall_2026.pdf)
+- [Individual team effort report (Word)](course_documents/PHYS201L_Individual_Team_Effort_Report_Fall_2026.docx)
+
+Editable and printable versions are available in the [`course_documents`](course_documents/) directory.
+
+## Laboratory schedule and release status
+
+| Lab | Experiment | Meeting dates | Due at 8:45 p.m. | Status |
+| --- | --- | --- | --- | --- |
+| 1 | Density measurements and uncertainties | Aug 24 and Aug 31 | Aug 31 | **Released** |
+| 2 | Air track I: Kinematics | Sep 7 and Sep 14 | Sep 14 | Coming later |
+| 3 | Projectile motion | Sep 21 and Sep 28 | Sep 28 | Coming later |
+| 4 | Air track II: Newton's second law | Oct 5 and Oct 19 | Oct 19 | Coming later |
+| 5 | Air track III: Conservation of energy | Oct 26 and Nov 2 | Nov 2 | Coming later |
+| 6 | Collisions in two dimensions | Nov 9 and Nov 16 | Nov 16 | Coming later |
+| 7 | Moment of inertia | Nov 23 and Nov 30 | Nov 30 | Coming later |
+
+There is no laboratory meeting on October 12 because of fall recess. Each new lab will appear in the `labs` directory when it is released.
+
 ## Before the first lab
 
 Each laboratory team uses one shared GitHub fork for the semester. Choose one team member to be the repository manager.
@@ -12,6 +34,15 @@ Each laboratory team uses one shared GitHub fork for the semester. Choose one te
 4. Open [`Start_Here.ipynb`](Start_Here.ipynb) in Google Colab and complete the save test.
 
 Do not place student ID numbers, grades, private feedback, or other sensitive information in this public repository.
+
+### First-night checklist
+
+- [ ] Create one team fork and invite every teammate as a collaborator.
+- [ ] Complete the save test in [`Start_Here.ipynb`](Start_Here.ipynb).
+- [ ] Open [`Lab01_Density.ipynb`](labs/Lab01_Density/Lab01_Density.ipynb) from the **team fork** in Colab.
+- [ ] Enter every team member's name in the notebook.
+- [ ] Make an early test save to the team fork before beginning extensive work.
+- [ ] Confirm on GitHub that the saved notebook contains the team's changes.
 
 ## Working on a lab
 
@@ -33,7 +64,12 @@ Do not rename or move released lab notebooks. This keeps instructor updates and 
 
 ## Submission
 
-Submit the GitHub URL of the completed notebook through the course LMS. Follow any additional PDF or deadline instructions given in the syllabus or LMS assignment.
+By 8:45 p.m. at the end of the second meeting:
+
+1. The repository manager submits the GitHub URL of the team's completed notebook through the course LMS.
+2. Every student submits an individual effort report through the LMS.
+
+The effort report is private. Do **not** commit it to the team's public GitHub fork. Follow any additional submission instructions in the LMS assignment.
 
 ## Getting help
 
